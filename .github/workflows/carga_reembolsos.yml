@@ -2,7 +2,7 @@ name: Ejecutar carga automática Reembolsos
 
 on:
   schedule:
-    - cron: '1 11 * * *'  # Todos los días a las 6:00 UTC
+    - cron: '35 19 * * *'  # Todos los días a las 6:00 UTC
   workflow_dispatch:     # Para ejecución manual desde "Actions"
 
 jobs:
